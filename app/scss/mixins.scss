@@ -1,0 +1,41 @@
+@mixin basicText{
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: $colorText;
+}
+
+@mixin basicTitle{
+  font-family: 'Gilroy', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: $colorTitle;
+} 
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+@keyframes arrowRun {
+  25%{
+    transform: translateX(7px);
+  }
+  50%{
+    transform: translateX(0);
+  }
+  75%{
+    transform: translateX(-7px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@mixin startArrowRun {
+  animation-name: arrowRun;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,63 @@
+@font-face{
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+       url('../fonts/Gilroy-Bold.woff') format('woff'),
+       url('../fonts/Gilroy-Bold.ttf') format('ttf'),
+       url('../fonts/Gilroy-Bold.eot') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Extrabold.woff2') format('woff2'),
+       url('../fonts/Gilroy-Extrabold.woff') format('woff'),
+       url('../fonts/Gilroy-Extrabold.ttf') format('ttf'),
+       url('../fonts/Gilroy-Extrabold.eot') format('embedded-opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueBold.woff2') format('woff2'),
+       url('../fonts/BebasNeueBold.woff') format('woff'),
+       url('../fonts/BebasNeueBold.ttf') format('ttf'),
+       url('../fonts/BebasNeueBold.eot') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+       url('../fonts/ProximaNova-Regular.woff') format('woff'),
+       url('../fonts/ProximaNova-Regular.ttf') format('ttf'),
+       url('../fonts/ProximaNova-Regular.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+       url('../fonts/ProximaNova-RegularIt.woff') format('woff'),
+       url('../fonts/ProximaNova-RegularIt.ttf') format('ttf'),
+       url('../fonts/ProximaNova-RegularIt.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+       url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+       url('../fonts/ProximaNova-Semibold.ttf') format('ttf'),
+       url('../fonts/ProximaNova-Semibold.eot') format('embedded-opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+       url('../fonts/ProximaNova-Bold.woff') format('woff'),
+       url('../fonts/ProximaNova-Bold.ttf') format('ttf'),
+       url('../fonts/ProximaNova-Bold.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
